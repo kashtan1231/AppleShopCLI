@@ -1,0 +1,196 @@
+.gridBoxBack {
+  min-width: 80%;
+  margin: auto;
+  margin-top: 130px;
+
+  background-color: #e3e3e3;
+  border-radius: 10px;
+
+  padding: 10px;
+}
+
+.gridBox {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 300px;
+  grid-gap: 10px;
+}
+
+.gridBox > a {
+  background-color: whitesmoke;
+  border-radius: 10px;
+
+  transition-duration: .5s;
+}
+
+.airpods {
+  grid-column: 1/5;
+  grid-row: 1/3;
+
+  position: relative;
+  z-index: 0;
+
+  background-image: url(https://cdn1.it4profit.com/AfrOrF3gWeDA6VOlDG4TzxMv39O7MXnF4CXpKUwGqRM/resize:fill:540/bg:f6f6f6/q:100/plain/s3://catalog-products/211019073902180082/211019160019303997.png@webp);
+  background-position: center right 110px;
+  background-repeat: no-repeat;
+  background-size: 40%;
+}
+
+.iphone {
+  grid-column: 1;
+  grid-row: 3/5;
+
+  position: relative;
+  z-index: 0;
+
+  background-image: url(https://cdn1.it4profit.com/AfrOrF3gWeDA6VOlDG4TzxMv39O7MXnF4CXpKUwGqRM/bg:f6f6f6/plain/s3://files/7/main-catalog-banner-iphone-13-1.png@webp);
+  background-position: center bottom 20px;
+  background-repeat: no-repeat;
+  background-size: 70%;
+}
+
+.mac {
+  grid-column: 2/4;
+  grid-row: 3;
+
+  position: relative;
+  z-index: 0;
+
+  background-image: url(https://cdn1.it4profit.com/AfrOrF3gWeDA6VOlDG4TzxMv39O7MXnF4CXpKUwGqRM/bg:f6f6f6/plain/s3://files/29/macbook_air_silver_with_m1_chip_hero_on-white_screen__wwen.png@webp);
+  background-position: center bottom 20px;
+  background-repeat: no-repeat;
+  background-size: 70%;
+}
+
+.ipad {
+  grid-column: 4;
+  grid-row: 3/5;
+
+  position: relative;
+  z-index: 0;
+
+  background-image: url(../images/fixed/ipad.png);
+  background-position: center bottom 20px;
+  background-repeat: no-repeat;
+  background-size: 140%;
+}
+
+.watch {
+  grid-column: 2;
+  grid-row: 4;
+
+  position: relative;
+  z-index: 0;
+
+  background-image: url(https://cdn1.it4profit.com/AfrOrF3gWeDA6VOlDG4TzxMv39O7MXnF4CXpKUwGqRM/bg:f6f6f6/plain/s3://files/7/main-catalog-panel-apple-watch-banner.png@webp);
+  background-position: center bottom 20px;
+  background-repeat: no-repeat;
+  background-size: 70%;
+}
+.tv {
+  grid-column: 3;
+  grid-row: 4;
+
+  position: relative;
+  z-index: 0;
+
+  background-image: url(https://cdn1.it4profit.com/AfrOrF3gWeDA6VOlDG4TzxMv39O7MXnF4CXpKUwGqRM/bg:f6f6f6/plain/s3://files/34/apple-tv-preview.png@webp);
+  background-position: center bottom 20px;
+  background-repeat: no-repeat;
+  background-size: 70%;
+}
+
+.gridBox > a:hover {
+  cursor: pointer;
+
+  box-shadow: #1d1d1d94 0px 0px 12px;
+  transition-duration: .2s;
+}
+
+.airLogo {
+  width: 170px;
+
+  position: absolute;
+
+  top: 27%;
+  left: 25%;
+  transform: translate(-50%, 0%);
+}
+
+.airpods > span:nth-child(2) {
+  font-size: 30px;
+  font-weight: 600;
+  color: #1d1d1d;
+
+  position: absolute;
+
+  top: 36%;
+  left: 25%;
+  transform: translate(-50%, 0%);
+}
+
+.airpods > span:nth-child(3) {
+  font-size: 20px;
+  font-weight: 400;
+  color: #b1b1b1;
+
+  position: absolute;
+
+  top: 52%;
+  left: 25%;
+  transform: translate(-50%, 0%);
+}
+
+.airpods > span:nth-child(4) {
+  font-size: 35px;
+  font-weight: 600;
+  color: #1d1d1d;
+
+  position: absolute;
+
+  top: 65%;
+  left: 25%;
+  transform: translate(-50%, 0%);
+  transition-duration: .2s;
+}
+
+.airpods > span:nth-child(4):hover {
+  color: #fd5959;
+
+  transition-duration: .2s;
+}
+
+.gridBox span {
+  font-size: 23px;
+  font-weight: 600;
+  color: #1d1d1d;
+
+  position: absolute;
+  top: 22px;
+  left: 45px;
+}
+
+form {
+  position: absolute;
+
+  top: 72px;
+  left: 45px;
+}
+
+form button {
+  border: none;
+  background-color: transparent;
+  color: #fd5959;
+
+  font-size: 17px;
+  font-weight: 500;
+
+  transition-duration: .2s;
+}
+
+form button:hover {
+  color: #1d1d1d;
+  cursor: pointer;
+
+  transition-duration: .2s;
+}

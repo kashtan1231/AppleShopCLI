@@ -1,0 +1,122 @@
+.imac24 {
+  position: relative;
+  z-index: 0;
+
+  background-image: url(../images/imac/imac24.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 60%;
+}
+
+.imac24 > span:nth-child(1) {
+  font-size: 40px;
+  font-weight: 300;
+  color: #1d1d1d;
+
+  position: absolute;
+
+  top: 7%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.imac24 > span:nth-child(2) {
+  font-size: 30px;
+  font-weight: 500;
+  color: #1d1d1d;
+
+  position: absolute;
+
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  transition-duration: .2s;
+}
+
+.imac24 > span:nth-child(2):hover {
+  color: #fd5959;
+
+  transition-duration: .2s;
+}
+
+.imac27 {
+  position: relative;
+  z-index: 0;
+
+  background-image: url(../images/imac/imac27png.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 40%;
+}
+
+.imac27 > span:nth-child(1) {
+    font-size: 40px;
+    font-weight: 300;
+    color: #1d1d1d;
+  
+    position: absolute;
+  
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.imac27 > span:nth-child(2) {
+    font-size: 30px;
+    font-weight: 500;
+    color: #1d1d1d;
+  
+    position: absolute;
+  
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    transition-duration: .2s;
+}
+
+.imac27 > span:nth-child(2):hover {
+  color: #fd5959;
+
+  transition-duration: .2s;
+}
+
+.imacAll {
+  position: relative;
+  z-index: 0;
+
+  background-image: url(../images/imac/imacAll.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 65%;
+}
+
+.imacAll > span:nth-child(1) {
+  font-size: 40px;
+  font-weight: 300;
+  color: #1d1d1d;
+
+  position: absolute;
+
+  top: 7%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.imacAll > span:nth-child(2) {
+  font-size: 30px;
+  font-weight: 500;
+  color: #1d1d1d;
+
+  position: absolute;
+
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  transition-duration: .2s;
+}
+
+.imacAll > span:nth-child(2):hover {
+  color: #fd5959;
+
+  transition-duration: .2s;
+}

@@ -1,0 +1,197 @@
+.watch7 {
+    position: relative;
+    z-index: 0;
+  
+    background-image: url(../images/watch/watch7.png);
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position: top left;
+  
+  
+    display: table;
+  }
+  
+  .watch7 img {
+    position: absolute;
+  
+    top: 10%;
+    left: 87%;
+  
+    transform: translate(-50%, 0%);
+    width: 150px;
+  }
+  
+  .watch7 > span:nth-child(1) {
+    font-size: 13px;
+    font-weight: 900;
+    color: #1d1d1d;
+    letter-spacing: 3px;
+  
+    position: absolute;
+  
+    top: 17%;
+    left: 87%;
+    transform: translate(-50%, 0%);
+  
+    text-align: center;
+  }
+  
+  .watch7 > span:nth-child(2) {
+    font-size: 40px;
+    font-weight: 300;
+    color: #1d1d1d;
+  
+    position: absolute;
+  
+    top: 30%;
+    left: 87%;
+    transform: translate(-50%, 0%);
+  
+    text-align: center;
+  }
+  
+  .watch7 > span:nth-child(3) {
+    font-size: 30px;
+    font-weight: 500;
+    color: #482e39;
+    position: absolute;
+  
+    top: 60%;
+    left: 79%;
+    transform: translate(0, 0%);
+  
+    transition-duration: .5s;
+    opacity: 0;
+  }
+  
+  .watch7:hover > span:nth-child(3) {
+    font-size: 30px;
+    font-weight: 500;
+    color: #482e39;
+    position: absolute;
+  
+    top: 60%;
+    left: 79%;
+    transform: translate(0, 0%);
+  
+    transition-duration: 1.5s;
+    opacity: 1;
+  }
+  
+  .watchSE {
+    position: relative;
+    z-index: 0;
+  
+    background-image: url(../images/watch/watchSE.png);
+    background-position: 80px ;
+    background-repeat: no-repeat;
+    background-size: 50%;
+  
+    display: table;
+  }
+  
+  .watchSE img {
+    position: absolute;
+  
+    top: 10%;
+    left: 75%;
+  
+    transform: translate(-50%, 0%);
+    width: 150px;
+  }
+  
+  .watchSE > span:nth-child(1) {
+    font-size: 13px;
+    font-weight: 900;
+    color: #1d1d1d;
+    letter-spacing: 3px;
+  
+    position: absolute;
+  
+    top: 17%;
+    left: 75%;
+    transform: translate(-50%, 0%);
+  
+    text-align: center;
+  }
+  
+  .watchSE > span:nth-child(2) {
+    font-size: 40px;
+    font-weight: 300;
+    color: #1d1d1d;
+  
+    position: absolute;
+  
+    top: 30%;
+    left: 63%;
+    transform: translate(0%, 0%);
+  }
+  
+  .watchSE > span:nth-child(3) {
+    font-size: 30px;
+    font-weight: 500;
+    color: #c23540;
+    position: absolute;
+  
+    top: 60%;
+    left: 75%;
+    transform: translate(-50%, 0%);
+  
+    transition-duration: .5s;
+    opacity: 0;
+  }
+  
+  .watchSE:hover > span:nth-child(3) {
+    font-size: 30px;
+    font-weight: 500;
+    color: #c23540;
+    position: absolute;
+  
+    top: 60%;
+    left: 76%;
+    transform: translate(-50%, 0%);
+  
+    transition-duration: 1s;
+    opacity: 1;
+  }
+  
+  .watchAll {
+    position: relative;
+    z-index: 0;
+    
+    background-image: url(../images/watch/watchAll.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+  }
+  
+  .watchAll > span:nth-child(1) {
+    font-size: 40px;
+    font-weight: 300;
+    color: #1d1d1d;
+  
+    position: absolute;
+  
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+  }
+  
+  .watchAll > span:nth-child(2) {
+    font-size: 30px;
+    font-weight: 500;
+    color: #1d1d1d;
+  
+    position: absolute;
+  
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    transition-duration: .2s;
+  }
+  
+  .watchAll > span:nth-child(2):hover {
+    color: #fd5959;
+  
+    transition-duration: .2s;
+  }

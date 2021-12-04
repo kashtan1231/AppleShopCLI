@@ -1,0 +1,185 @@
+.ipadOriginal {
+    position: relative;
+    z-index: 0;
+  
+    background-image: url(../images/ipad/ipadOriginal.png);
+    background-position: top left 70px;
+    background-repeat: no-repeat;
+    background-size: 60%;
+  
+    display: table;
+  }
+  
+  .ipadOriginal > span:nth-child(1) {
+    font-size: 60px;
+    font-weight: 500;
+    color: #1d1d1d;
+  
+    position: absolute;
+  
+    top: 10%;
+    left: 75%;
+    transform: translate(-50%, 0%);
+  }
+  
+  .ipadOriginal > span:nth-child(2) {
+    font-size: 40px;
+    font-weight: 300;
+    color: #1d1d1d;
+  
+    position: absolute;
+  
+    top: 25%;
+    left: 50%;
+    transform: translate(0%, 0%);
+  
+    text-align: center;
+  }
+  
+  .ipadOriginal > span:nth-child(3) {
+    font-size: 30px;
+    font-weight: 500;
+    color: #1d1d1d;
+    position: absolute;
+  
+    top: 60%;
+    left: 75%;
+  
+    transform: translate(-50%, 0%);
+  
+    transition-duration: .5s;
+    opacity: 0;
+  }
+  
+  .ipadOriginal:hover > span:nth-child(3) {
+    font-size: 30px;
+    font-weight: 500;
+    color: #1d1d1d;
+    position: absolute;
+  
+    top: 60%;
+    left: 75%;
+  
+    transform: translate(-50%, 0%);
+  
+    transition-duration: 1.5s;
+    opacity: 1;
+  }
+  
+  .ipadMini {
+    position: relative;
+    z-index: 0;
+  
+    background-image: url(../images/ipad/ipadMini.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 95%;
+  
+    display: table;
+  }
+  
+  .ipadMini > span:nth-child(1) {
+    font-size: 60px;
+    font-weight: 500;
+    color: #1d1d1d;
+  
+    position: absolute;
+  
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+  }
+  
+  .ipadMini > span:nth-child(2) {
+    font-size: 40px;
+    font-weight: 300;
+    color: #1d1d1d;
+  
+    position: absolute;
+  
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+  }
+  
+  .ipadMini > span:nth-child(3) {
+    font-size: 40px;
+    font-weight: 300;
+    color: #1d1d1d;
+  
+    position: absolute;
+  
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+  }
+  
+  .ipadMini > span:nth-child(4) {
+    font-size: 30px;
+    font-weight: 500;
+    color: #162237;
+    position: absolute;
+  
+    top: 70%;
+    left: 50%;
+  
+    transform: translate(-50%, 0%);
+  
+    transition-duration: .5s;
+    opacity: 0;
+  }
+  
+  .ipadMini:hover > span:nth-child(4) {
+    font-size: 30px;
+    font-weight: 500;
+    color: #7e7c92;
+    position: absolute;
+  
+    top: 70%;
+  
+    transform: translate(-50%, 0%);
+  
+    transition-duration: 1.5s;
+    opacity: 1;
+  }
+  
+  .ipadAll {
+    position: relative;
+    z-index: 0;
+  
+    background-image: url(../images/ipad/ipadAll.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+  }
+  
+  .ipadAll > span:nth-child(1) {
+    font-size: 40px;
+    font-weight: 300;
+    color: #1d1d1d;
+  
+    position: absolute;
+  
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+  }
+  
+  .ipadAll > span:nth-child(2) {
+    font-size: 30px;
+    font-weight: 500;
+    color: #1d1d1d;
+  
+    position: absolute;
+  
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    transition-duration: .2s;
+  }
+  
+  .ipadAll > span:nth-child(2):hover {
+    color: #fd5959;
+  
+    transition-duration: .2s;
+  }

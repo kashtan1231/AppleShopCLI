@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME &ndash; Apple Shop</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body id="app" v-cloak>
+    <div class="page">
+
+        <header>
+            <div class="menu">
+                <div class="contents">
+                    <div class="logoBox">
+                        <a href="/public/home/home.html" class="redirect">
+                            <img src="/public/home/img/appleLogo.png" alt="appleLogo" class="appleLogo">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="menuButton"
+                    @click="isMenuButtonPressed === false ? isMenuButtonPressed = true : isMenuButtonPressed = false">
+                    <div :class="isMenuButtonPressed === true ? 'firstX' : 'first'"></div>
+                    <div :class="isMenuButtonPressed === true ? 'secondX' : 'second'"></div>
+                    <div :class="isMenuButtonPressed === true ? 'thirdX' : 'third'"></div>
+                    <div :class="isMenuButtonPressed === true ? 'fourthX' : 'fourth'"></div>
+                </div>
+
+                <transition name="bar">
+                    <div v-if="isMenuButtonPressed" class="gridBoxHeader">
+                        <div class="bar">
+                            <a href="/public/imac/imac.html" class="imacList">iMac</a>
+                            <a href="/public/iphone/iphone.html" class="iphoneList">iPhone</a>
+                            <a href="/public/ipad/ipad.html" class="ipadList">iPad</a>
+                            <a href="/public/macbook/macbook.html" class="macbookList">MacBook</a>
+                            <a href="/public/watch/watch.html" class="watchList">Watch</a>
+                            <a href="/public/airpods/airpods.html" class="airpodsList">Airpods</a>
+                            <a href="#" class="tvList">Apple TV</a>
+                        </div>
+                    </div>
+                </transition>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="gridBoxBack">
+                <div class="gridBox">
+
+                    <a href="#" class="airpods" target="_blank">
+                        <img src="/public/home/img/airLogo.png" alt="airpodsLogo" class="airLogo">
+                        <span>Магия. В новой аранжировке.</span>
+                        <span>Уже в продаже</span>
+                        <span>Всего от 7699 грн. ⮚</span>
+                        <button>PREV</button>
+                        <button>NEXT</button>
+                    </a>
+
+                    <a href="#" class="iphone">
+                        <span>Новый iPhone 13</span>
+                        <form action="https://www.apple.com/ru/" target="_blank">
+                            <button>Все модели ⮚</button>
+                        </form>
+                    </a>
+
+                    <a href="#" class="ipad">
+                        <span>Мощный iPad Pro</span>
+                        <form action="https://www.apple.com/ru/" target="_blank">
+                            <button>Все модели ⮚</button>
+                        </form>
+                    </a>
+
+                    <a href="#" class="mac">
+                        <span>Неверотный macbook с чипом M1</span>
+                        <form action="https://www.apple.com/ru/" target="_blank">
+                            <button>Все модели ⮚</button>
+                        </form>
+                    </a>
+
+                    <a href="#" class="watch">
+                        <span>Сяющие Apple Watch 7</span>
+                        <form action="https://www.apple.com/ru/" target="_blank">
+                            <button>Все модели ⮚</button>
+                        </form>
+                    </a>
+                    <a href="#" class="tv">
+                        <span>Дом в 4k</span>
+                        <form action="https://www.apple.com/ru/" target="_blank">
+                            <button>Все модели ⮚</button>
+                        </form>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footerContainer">
+
+                <div class="socials">
+                    <p>Мы в социальных сетях:</p>
+
+                    <div class="socialsGrid">
+                        <a href="https://facebook.com/" target="_blank">
+                            <img src="/public/home/img/facebookLogo.png" alt="facebookLogo">
+                        </a>
+
+                        <a href="https://instagram.com/" target="_blank">
+                            <img src="/public/home/img/instaLogo.png" alt="instaLogo">
+                        </a>
+
+                        <a href="https://www.youtube.com/" target="_blank">
+                            <img src="/public/home/img/youtubeLogo.png" alt="youtubeLogo">
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="rights">
+                    <p>© Apple Inc., 2021 г. Все права защищены.</p>
+                </div>
+
+                <div class="contacts">
+                    <p>00001, г.Киев, улица Героїв Майдуну, палатка №54</p>
+                    <p>Контактный телефон: 050 148-82-28</p>
+                </div>
+
+                <div class="payment">
+                    <p>Мы принимаем:</p>
+
+                    <div class="paymentGrid">
+
+                        <img src="https://ion.ua/assets/images/accept-visa.svg" alt="visa">
+                        <img src="https://ion.ua/assets/images/accept-mc.svg" alt="mastercard">
+                        <img src="https://ion.ua/assets/images/apple_pay-icon.svg" alt="apple pay">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Google_Pay_%28GPay%29_Logo_%282018-2020%29.svg/2560px-Google_Pay_%28GPay%29_Logo_%282018-2020%29.svg.png"
+                            alt="google pay">
+
+                    </div>
+
+                </div>
+
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="home.js"></script>
+
+</body>
+
+</html>
