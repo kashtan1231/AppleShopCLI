@@ -8,6 +8,12 @@
 import HeaderLayout from './layouts/HeaderLayout.vue'
 
 export default {
+  mounted() {
+    setTimeout(() => {
+      console.log(this.$route.meta.layout)
+    }, 2000)
+    
+  },
   computed: {
     layout () {
       return (this.$route.meta.layout) + '-layout'

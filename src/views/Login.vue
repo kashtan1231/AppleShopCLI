@@ -92,7 +92,6 @@ export default {
 
   computed: {
     disabledRegBtn() {
-      console.log('Disabled')
       return (
         this.v$.formUser.email.email.$invalid ||
         this.v$.formUser.password.$invalid
@@ -100,7 +99,6 @@ export default {
     },
 
     error() {
-      console.log('Computed: '+this.$store.getters.error)
       return this.$store.getters.error
     }
   },

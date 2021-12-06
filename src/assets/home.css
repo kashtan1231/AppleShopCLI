@@ -20,7 +20,7 @@
   background-color: whitesmoke;
   border-radius: 10px;
 
-  transition-duration: .5s;
+  transition-duration: 0.5s;
 }
 
 .airpods {
@@ -104,11 +104,11 @@
   cursor: pointer;
 
   box-shadow: #1d1d1d94 0px 0px 12px;
-  transition-duration: .2s;
+  transition-duration: 0.2s;
 }
 
 .airLogo {
-  width: 170px;
+  max-width: 170px;
 
   position: absolute;
 
@@ -151,13 +151,13 @@
   top: 65%;
   left: 25%;
   transform: translate(-50%, 0%);
-  transition-duration: .2s;
+  transition-duration: 0.2s;
 }
 
 .airpods > span:nth-child(4):hover {
   color: #fd5959;
 
-  transition-duration: .2s;
+  transition-duration: 0.2s;
 }
 
 .gridBox span {
@@ -185,12 +185,12 @@ form button {
   font-size: 17px;
   font-weight: 500;
 
-  transition-duration: .2s;
+  transition-duration: 0.2s;
 }
 
 form button:hover {
   color: #1d1d1d;
   cursor: pointer;
 
-  transition-duration: .2s;
+  transition-duration: 0.2s;
 }

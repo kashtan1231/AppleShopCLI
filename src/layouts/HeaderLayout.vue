@@ -22,7 +22,7 @@
           <div :class="isMenuButtonPressed === true ? 'fourthX' : 'fourth'"></div>
         </div>
 
-          <button :class="isProfileButtonPressed === false ? 'logButton profButton' : 'logButtonX profButton'" @click="isProfileButtonPressed = !isProfileButtonPressed, uid(),  info()">
+          <button :class="isProfileButtonPressed === false ? 'logButton profButton' : 'logButtonX profButton'" @click="isProfileButtonPressed = !isProfileButtonPressed, uid(),  info(), layout()">
           <div class="logBox profBox">
             <img src="../images/fixed/login.png" alt="login">
             <p>{{ name }}</p>
@@ -160,6 +160,10 @@ export default {
 
     async info() {
       await this.$store.dispatch('fetchInfo')
+    },
+
+    layout() {
+      console.log(this.$route.meta.layout)
     }
   },
 

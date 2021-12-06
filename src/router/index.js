@@ -4,7 +4,7 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    meta: { layout: 'header' },
+    meta: { layout:  'header' },
     component: () => import('../views/Home.vue')
   },
 

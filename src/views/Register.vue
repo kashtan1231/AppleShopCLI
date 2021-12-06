@@ -117,8 +117,6 @@ export default {
       try {
         await this.$store.dispatch("register", formData)
 
-        console.log(formData)
-
         this.$router.push("/")
       } catch (e) {throw e}
     }
@@ -126,7 +124,6 @@ export default {
 
   computed: {
     disabledRegBtn() {
-      console.log("Disabled")
       return (
         this.v$.formUser.name.$invalid ||
         this.v$.formUser.email.email.$invalid ||
@@ -135,7 +132,6 @@ export default {
     },
 
     error() {
-      console.log(this.$store.getters.error)
       return this.$store.getters.error
     }
   },

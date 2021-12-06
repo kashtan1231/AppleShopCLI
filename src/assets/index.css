@@ -314,11 +314,22 @@ header {
 }
 
 .container {
-  width: 86%;
+  max-width: 1300px;
+  /* width: 86%; */
   height: 100%;
   margin: auto;
+  padding: 0 10px;
   padding-bottom: 100px;
   margin-top: 0px;
+}
+
+@media (max-width:450px) {
+  .container {
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+  }
 }
 
 .gridBoxBack {
@@ -424,4 +435,8 @@ footer {
 
 .paymentGrid > img {
   width: 50px;
+}
+
+.slideImg {
+  width: 200px;
 }
