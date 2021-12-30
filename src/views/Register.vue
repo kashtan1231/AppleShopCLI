@@ -24,7 +24,7 @@
               @blur="v$.formUser.name.$touch()"
               :class="[v$.formUser.name.$error ? 'invalid' : 'formInput']"
               v-model.trim="formUser.name" type="text" id="name"
-              :placeholder="v$.formUser.name.$error ? 'Обязательное поле' : 'activniy_gomez'"/>
+              :placeholder="v$.formUser.name.$error ? 'Обязательное поле' : 'test'"/>
           </div>
 
           <div class="formGroup">
@@ -40,7 +40,7 @@
               @blur="v$.formUser.email.$touch()"
               :class="[v$.formUser.email.$error || error  ? 'invalid' : 'formInput']"
               v-model.trim="formUser.email" type="text" id="email"
-              placeholder="activniy_gomez@mail.ua"/>
+              placeholder="test@mail.ua"/>
           </div>
 
           <div class="formGroup">

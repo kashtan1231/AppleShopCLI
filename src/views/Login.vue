@@ -20,7 +20,7 @@
             <input  @blur="v$.formUser.email.$touch()"
                     :class="[v$.formUser.email.$error  ? 'invalid' : 'formInput']"
                     v-model.trim="formUser.email"
-                    type="text" id="email" placeholder="activniy_gomez" />
+                    type="text" id="email" placeholder="test@mail.ua" />
           </div>
 
           <div class="formGroup">
